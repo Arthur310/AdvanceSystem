@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="US-ASCII" standalone="yes" ?>
+<test-set> first test set
+	<report-to>jheuring@eng.utoledo.edu</report-to>
+	<report-to>gheuring@eng.utoledo.edu</report-to>
+	<report-to>bgates@hotmail.com</report-to>
+	<report-to>trouble@river.city.org</report-to>
+	<test-case>
+		<name>one</name>
+		<input-file>
+			<name-for-input>inname</name-for-input>
+			<copy-from>/home/gheuring/test</copy-from>
+		</input-file>
+		<output-file>
+			<name-for-output>stdout</name-for-output>
+			<compare-to>/home/gheuring/testoutput</compare-to>
+		</output-file>
+	</test-case>
+</test-set>
